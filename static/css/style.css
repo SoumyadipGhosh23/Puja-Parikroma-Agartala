@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+#list{
+    text-align: center;
+    padding-left: 20px;
+    font-size: large;
+    font-weight: 800;
+}
+
 #Title{
    background-color: #ff9900;
 }
@@ -123,9 +130,21 @@
     .logo-img{
         width: 50%;
     }
+    #list{
+        text-align: center;
+        padding-left: 20px;
+        font-size: small;
+        font-weight: 800;
+    }
 }
 
 @media(max-width: 700px){
+    #list{
+        text-align: center;
+        padding-left: 20px;
+        font-size: small;
+        font-weight: 800;
+    }
     .logo-img{
         width: 50%;
     }
